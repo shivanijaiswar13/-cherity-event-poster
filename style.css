@@ -6,12 +6,83 @@
 html,body{
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wrapper{
     width: 100%;
-    height: 80px;
-    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    background-image: url(image5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    width: 40%;
+    height: 98%;
+    /* background-color: blueviolet; */
+    background-image:url(hands.jpg) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.info{
+    margin: 25px;
+    padding: 10px;
+    gap: 5px;
+    /* background-color: aqua; */
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.heading{
+    /* background-color: blue; */
+    margin-top: 30px;
+    font-size: 180px;
+    line-height: 200px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize;
+    -webkit-text-stroke: 2px #fff;
+    color: rgb(88, 37, 45);
+}
+p{
+    margin-top: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+button{
+    padding: 0.6rem 3rem;
+    border: 2px solid #5222d0;
+    background-color: #5222d0;
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    transition: all 50ms ease-in;
+    text-align: center;
+
+}
+button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-weight: 800;
+}
+.footer{
+    
+}
+ .footer  >a{
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    /* color: grey; */
+    display: block;
+    text-decoration: none;
 }
